@@ -167,13 +167,28 @@ body {
 
 /* ----------------Third Section----------------*/
 
-.aboutus {
+.section-third {
+    padding-bottom: 120px;
+}
+
+.aboutus-title {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
     letter-spacing: 0.02em
+}
+
+.menu-aboutus {
+    display: flex;
+    gap: 24px;
+}
+
+.menu-aboutus-list {
+    display: flex;
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 /* ----------------Fourth Section----------------*/
