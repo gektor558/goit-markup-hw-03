@@ -58,6 +58,7 @@ body {
 }
 
 .menu {
+    display: flex;
     text-decoration: none;
     gap: 40px
     
