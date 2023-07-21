@@ -186,13 +186,27 @@ ol {
 
 /* ----------------Third Section----------------*/
 
+.section-third {
+    padding-bottom: 120px;
+}
+
 .aboutus {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
     letter-spacing: 0.02em
+}
+
+.aboutus-list {
+    display: flex;
+    gap: 24px;
+}
+
+.aboutus-item {
+    width: calc((100% - 48px) / 3);
 }
 
 /* ----------------Fourth Section----------------*/
