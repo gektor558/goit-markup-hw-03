@@ -9,10 +9,29 @@ body {
     background-color: #ffffff;
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* ----------------Header Section----------------*/
 
 .address {
     font-style: normal;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
 }
 
 .contacts {
@@ -28,6 +47,7 @@ body {
 }
 
 .logo {
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size:18px;
@@ -37,8 +57,9 @@ body {
     color: #4d5ae5;
 }
 
-.link {
+.menu {
     text-decoration: none;
+    gap: 40px
     
 }
 
@@ -52,10 +73,11 @@ body {
 }
 
 .list {
-    list-style: none;
+    display: flex;
 }
 
-.studiolist {
+.studiomenu {
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
