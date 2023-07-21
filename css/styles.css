@@ -261,11 +261,18 @@ ol {
 /* ----------------Footer----------------*/
 
 .footer {
+    padding: 100px 0;
     background-color: #2e2f42;
 
 }
 
+.logo-bottom {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-text {
+    max-width: 264px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
