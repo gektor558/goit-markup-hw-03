@@ -360,6 +360,6 @@ ol {
     row-gap: 48px;
 }
 
-.portfolio-second-list {
+.portfolio-second-list-item {
     width: calc((100% - 48px) / 3);
 }
