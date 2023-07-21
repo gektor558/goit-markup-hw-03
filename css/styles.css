@@ -15,6 +15,10 @@ body {
     padding: 0 15px;
 }
 
+.img {
+    display: block;
+}
+
 /* ----------------Header Section----------------*/
 
 .address {
@@ -86,14 +90,25 @@ body {
     color: #2e2f42;
 }
 
+.button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 /* ----------------First Section----------------*/
 
 .section-first {
+    padding: 188px 0;
     background-color: #2e2f42;
 }
 
 .title {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -119,12 +134,28 @@ body {
 
 /* ----------------Second Section----------------*/
 
+.section-second {
+    padding: 120px 0;
+}
+
+
+
 .features-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.features-menu {
+    display: flex;
+    gap: 24px;
+}
+
+.features-list {
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-text {
