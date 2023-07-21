@@ -115,10 +115,12 @@ ol {
 /* ----------------First Section----------------*/
 
 .section-first {
+    padding: 188px 0;
     background-color: #2e2f42;
 }
 
 .title {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -127,6 +129,13 @@ ol {
 }
 
 .title-button{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
     font-family: inherit;
     background-color: #4D5AE5;
     font-weight: 500;
