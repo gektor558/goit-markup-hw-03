@@ -9,33 +9,10 @@ body {
     background-color: #ffffff;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.img {
-    display: block;
-}
-
 /* ----------------Header Section----------------*/
 
 .address {
     font-style: normal;
-}
-
-.header {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
-    display: flex;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
 }
 
 .contacts {
@@ -51,7 +28,6 @@ body {
 }
 
 .logo {
-    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size:18px;
@@ -61,10 +37,8 @@ body {
     color: #4d5ae5;
 }
 
-.menu {
-    display: flex;
+.link {
     text-decoration: none;
-    gap: 40px
     
 }
 
@@ -78,11 +52,10 @@ body {
 }
 
 .list {
-    display: flex;
+    list-style: none;
 }
 
-.studiomenu {
-    padding: 24px 0;
+.studiolist {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -90,25 +63,14 @@ body {
     color: #2e2f42;
 }
 
-.button {
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    background-color: #4d5ae5;
-    border-radius: 4px;
-    cursor: pointer;
-}
 
 /* ----------------First Section----------------*/
 
 .section-first {
-    padding: 188px 0;
     background-color: #2e2f42;
 }
 
 .title {
-    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -134,23 +96,7 @@ body {
 
 /* ----------------Second Section----------------*/
 
-.section-second {
-    padding: 120px 0;
-}
-
-
-.features-menu {
-    display: flex;
-    gap: 24px;
-}
-
-.features-list{
-    display: flex;
-    flex-basis: calc((100% - 72px) / 4);
-}
-
 .features-title {
-    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -167,12 +113,7 @@ body {
 
 /* ----------------Third Section----------------*/
 
-.section-third {
-    padding-bottom: 120px;
-}
-
-.aboutus-title {
-    margin-bottom: 72px;
+.aboutus {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -181,51 +122,16 @@ body {
     letter-spacing: 0.02em
 }
 
-.menu-aboutus {
-    display: flex;
-    gap: 24px;
-}
-
-.menu-aboutus-list {
-    display: flex;
-    flex-basis: calc((100% - 3 * 16px) / 3);
-}
-
 /* ----------------Fourth Section----------------*/
 
 
 
-.section-fourth {
-    padding: 120px 0;
+.team {
     background-color: #F4F4FD;
 }
 
-.team-title {
-    margin-bottom: 72px;
-}
-
-.team-menu {
-    display: flex;
-    gap: 24px;
-    background-color: #FFFFFF;
-}
-
 .team-list {
-    flex-basis: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.team-container-list {
-    padding: 32px 0;
-}
-
-.team-list-title {
-    text-align: center;
-    margin-bottom: 8px;
-}
-
-.team-list-text {
-    text-align: center;
+    background-color: #FFFFFF;
 }
 
 
