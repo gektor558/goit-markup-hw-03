@@ -9,7 +9,54 @@ body {
     background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* ----------------Header Section----------------*/
+
+.header-container {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-section {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.menu-list {
+    display: flex;
+    gap: 40px;
+}
+
+.studiolist {
+    padding: 24px 0;
+}
+
 
 .address {
     font-style: normal;
@@ -28,6 +75,7 @@ body {
 }
 
 .logo {
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size:18px;
